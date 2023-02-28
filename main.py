@@ -32,7 +32,7 @@ def main():
     turtle.pensize(2)
     turtle.shape(None)
     for i in range(3):
-        koch(turtle, 4, size/2)
+        koch(turtle, 4, 1800)
         turtle.right(120)
     turtle.done()
 
